@@ -1,0 +1,11 @@
+THE PLAN
+
+Goal: allow users to calculate the total electric charge vector (magnitude and direction) at any point, given that they might also want to add a certain number of electrons around the system.
+
+Point charges must have charges that are some int multiple of the fundamental charge, k_e
+
+Must have a 2d location (3d in future?)
+
+Must be able to return their charge vector (x and y?)
+
+For now, make double get_ke() and std::vector<PointCharges>
